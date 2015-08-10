@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.defaultapps.mclmobile"
         versionCode = "391"
-        version   = "1.0">
+        version   = "1.15">
     <name>MCL Math Mobile</name>
 
     <description>
@@ -16,7 +16,7 @@
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>1.0</string>
+        <string>1.15</string>
     </gap:config-file>
 
     <preference name="android-minSdkVersion" value="5" />
