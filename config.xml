@@ -2,9 +2,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.defaultapps.mclmobile"
         versionCode = "391"
-        version   = "1.15">
+        version   = "1.0">
     <name>MCL Math Mobile</name>
 
     <description>
@@ -21,7 +21,7 @@
 
     <preference name="android-minSdkVersion" value="5" />
 
-    <preference name="phonegap-version" value="3.6.3" />
+    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
