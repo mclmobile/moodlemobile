@@ -373,7 +373,7 @@ hr {
 #manage-accounts h1 img {
   width: 133px;
   height: auto;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 #add-site form {
   *zoom: 1;
@@ -464,6 +464,7 @@ hr {
 #manage-accounts .accounts,
 #app-dialog .accounts {
   display: block;
+  margin:auto;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
@@ -473,12 +474,12 @@ hr {
 #manage-accounts .account-details,
 #app-dialog .account-details {
   color: #666666;
-  margin:auto;
 }
 #manage-accounts .account-details img,
 #app-dialog .account-details img {
   border-radius: 50%;
-  margin:auto;
+  align-self:center;
+  /*float: left;*/
 }
 #manage-accounts .account-details div,
 #app-dialog .account-details div {
@@ -509,7 +510,7 @@ hr {
 
 #manage-accounts .account-pict,
 #app-dialog .account-fullname {
-  margin:auto;
+  ;
 }
 #manage-accounts .delete-site,
 #app-dialog .delete-site {
