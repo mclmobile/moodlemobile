@@ -477,7 +477,7 @@ hr {
 #manage-accounts .account-details img,
 #app-dialog .account-details img {
   border-radius: 50%;
-  margin:auto;
+  align-content:center;
 }
 #manage-accounts .account-details div,
 #app-dialog .account-details div {
