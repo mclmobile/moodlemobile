@@ -229,6 +229,7 @@
 "siteurllabel": "Site URL",
 "siteurlrequired": "Site URL required, i.e <i>http://www.yourmoodlesite.abc or https://www.yourmoodlesite.efg</i>",
 "spaceusage": "Space usage",
+"start":"Start!",
 "stop": "Stop",
 "strings": "Strings",
 "submissions": "Submissions",
