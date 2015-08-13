@@ -473,11 +473,12 @@ hr {
 #manage-accounts .account-details,
 #app-dialog .account-details {
   color: #666666;
+  margin:auto;
 }
 #manage-accounts .account-details img,
 #app-dialog .account-details img {
   border-radius: 50%;
-  align-content:center;
+  margin:auto;
 }
 #manage-accounts .account-details div,
 #app-dialog .account-details div {
