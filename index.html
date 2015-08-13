@@ -331,7 +331,7 @@
 </script>
 
 <script type="text/template" id="add-site_template">
-<h1 class="app-ico">
+<h1 class="app-ico" style="height:133px">
     <img src="img/login-logo.png" alt="Moodle">
 </h1>
 <form action="" novalidate>
@@ -339,7 +339,7 @@
 		
 	</div>
     <div id="login-details">
-        <p>
+        <p style="z-index:-9999;">
             <input type="hidden" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
         </p>
         <div id="login-credentials">
@@ -366,23 +366,24 @@
 <h1 class="app-ico">
     <img src="img/login-logo.png" alt="Moodle">
 </h1>
+
 <% _.each(sites, function(site) { %>
     <div class="accounts">
         <a class="account-details" onclick="MM.loadSite('<%= site.id %>')">
             <img src="<%= MM.util.getMoodleFilePath(site.userpictureurl, 1, site.id) %>">
             <div>
-                <span class="account-fullname"><%= MM.util.formatText(site.fullname) %></span>
-                <span class="account-sitename"><%= MM.util.formatText(site.sitename) %></span>
-                <span class="account-siteurl"><%= site.siteurl %></span>
+               <span class="account-fullname"><%= MM.util.formatText(site.fullname) %></span>
+              //  <span class="account-sitename"><%= MM.util.formatText(site.sitename) %></span>
+                //<span class="account-siteurl"><%= site.siteurl %></span>
             </div>
         </a>
         <span class="delete-site" >
             <a class="btn" onclick="MM.settings.deleteSite('<%= site.id %>')"><%= MM.lang.s("deletesiteb") %></a>
         </span>
       </div>
-<% });%>
+<% });%> 
 <div class="add-site">
-    <a class="btn" href="#add-site"><%= MM.lang.s("add") %></a>
+    <a class="btn" href="#add-site"><%= MM.lang.s("login") %></a>
 </div>
 </script>
 
