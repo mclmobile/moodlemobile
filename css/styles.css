@@ -477,7 +477,7 @@ hr {
 #manage-accounts .account-details img,
 #app-dialog .account-details img {
   border-radius: 50%;
-  float: left;
+  float: center;
 }
 #manage-accounts .account-details div,
 #app-dialog .account-details div {
@@ -504,6 +504,11 @@ hr {
 #manage-accounts .account-fullname,
 #app-dialog .account-fullname {
   font-weight: bold;
+}
+
+#manage-accounts .account-pict,
+#app-dialog .account-fullname {
+  margin:auto;
 }
 #manage-accounts .delete-site,
 #app-dialog .delete-site {
