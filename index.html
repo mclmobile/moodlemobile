@@ -358,8 +358,8 @@
 </form>
 <div id= "helplogin">
     <a href="#helpmelogin"><%= MM.lang.s("icantlogin") %></a>
-    <a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a>
-</div>
+   <!-- <a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a>
+</div> -->
 </script>
 
 <script type="text/template" id="manage-accounts_template">
@@ -374,18 +374,18 @@
             <img src="<%= MM.util.getMoodleFilePath(site.userpictureurl, 1, site.id) %>" style="width:100px">
             <div>
                <span class="account-fullname"><%= MM.util.formatText(site.fullname) %></span>
-               <span class="account-sitename"><%= MM.util.formatText(site.sitename) %></span>
-                <span class="account-siteurl"><%= site.siteurl %></span>
-            <div>
+              <!-- <span class="account-sitename"><%= MM.util.formatText(site.sitename) %></span>
+                <span class="account-siteurl"><%= site.siteurl %></span> -->
+            </div>
         </a>
         <span class="delete-site" >
             <a class="btn" onclick="MM.settings.deleteSite('<%= site.id %>')"><%= MM.lang.s("logout") %></a>
         </span></center>
       </div>
 <% });%> 
-<div class="add-site">
+<!-- <div class="add-site">
     <a class="btn" href="#add-site"><%= MM.lang.s("login") %></a>
-</div>
+</div> -->
 </script>
 
 <script type="text/template" id="choose-account-upload_template">
