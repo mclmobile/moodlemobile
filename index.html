@@ -122,7 +122,7 @@
 <div id="manage-accounts" style="display: none">
 
 </div>
-
+<!-- this is where the menu bar -->
 <div id="main-wrapper" style="display: none; background-color: white">
 
     <div class="header-wrapper">
@@ -358,8 +358,6 @@
 </form>
 <div id= "helplogin">
     <a href="#helpmelogin"><%= MM.lang.s("icantlogin") %></a>
-   <!-- <a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a>
-</div> -->
 </script>
 
 <script type="text/template" id="manage-accounts_template">
@@ -374,8 +372,6 @@
             <img src="<%= MM.util.getMoodleFilePath(site.userpictureurl, 1, site.id) %>" style="width:100px">
             <div>
                <span class="account-fullname"><%= MM.util.formatText(site.fullname) %></span>
-              <!-- <span class="account-sitename"><%= MM.util.formatText(site.sitename) %></span>
-                <span class="account-siteurl"><%= site.siteurl %></span> -->
             </div>
         </a>
         <span class="delete-site" >
@@ -383,9 +379,6 @@
         </span></center>
       </div>
 <% });%> 
-<!-- <div class="add-site">
-    <a class="btn" href="#add-site"><%= MM.lang.s("login") %></a>
-</div> -->
 </script>
 
 <script type="text/template" id="choose-account-upload_template">
