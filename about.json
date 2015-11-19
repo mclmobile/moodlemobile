@@ -1,10 +1,35 @@
 {
-"name": "Moodle Mobile",
+"name": "MCL Mobile Apps",
 "license": {
     "name": "Apache 2.0",
     "link": "http://www.apache.org/licenses/LICENSE-2.0"
 },
 "credits": [
+{
+    "fullname": "Med Irzal, M.Kom",
+    "contribution": "Main Developer",
+    "company": "UNJ"
+},
+{
+    "fullname": "M Reyhan Fahlevi",
+    "contribution": "Main Developer",
+    "company": "UNJ College Student"
+},
+{
+    "fullname": "Dimas Sartika",
+    "contribution": "Icons and css fixes",
+    "company": "UNJ College Student""
+},
+{
+    "fullname": "Ghina Salsabila",
+    "contribution": "Icons and css fixes",
+    "company": "UNJ College Student"
+},
+{
+    "fullname": "Tiara Amelia",
+    "contribution": "Icons and css fixes",
+    "company": "UNJ College Student"
+},
 {
     "fullname": "Juan Leyva",
     "contribution": "Main developer",
@@ -14,11 +39,6 @@
     "fullname": "Josep Maria Gifreu",
     "contribution": "Icons and css fixes",
     "company": "CV&A Consulting"
-},
-{
-    "fullname": "Martin Dougiamas",
-    "contribution": "Strategic direction",
-    "company": "Moodle Pty Ltd."
 },
 {
     "fullname": "Jerome Mouneryac",
